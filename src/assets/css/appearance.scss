@@ -1,0 +1,101 @@
+#appearance {
+    width: 100%;
+    height: 100%;
+
+    font-size: 30px;
+    overflow-y: auto;
+
+    .appearance_ul {
+        padding: 20px;
+        box-sizing: border-box;
+
+        li {
+            padding: 20px;
+            border-radius: 25px;
+            box-sizing: border-box;
+            margin-bottom: 1%;
+            background: rgba(255, 255, 255, 0.7);
+
+            fieldset {
+                width: 100%;
+                padding: 10px;
+                border: 0px;
+
+                // border-radius: 10px;
+                // box-sizing: border-box;
+                // margin-bottom: 1rem;
+                legend {
+                    color: #ff5301;
+                    font-size: 25px;
+                }
+
+                .el-button {
+                    ::v-deep i {
+                        font-size: 18px;
+                    }
+
+                    ::v-deep span {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .appearance-two {
+                min-height: 30%;
+                max-height: 30%;
+                overflow-x: scroll;
+                overflow-y: auto;
+                padding: 15px;
+
+                legend {
+                    position: relative;
+                    width: 100%;
+
+                    span:nth-child(2) {
+                        position: absolute;
+                        right: 4%;
+                        z-index: 2;
+                    }
+                }
+
+                ul {
+                    width: 100%;
+                    height: 90%;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    li {
+                        position: relative;
+                        width: 18%;
+                        height: 200px;
+                        border: 1px solid black;
+                        padding: 20px;
+                        margin: 2px 15px;
+                        box-sizing: border-box;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+
+                        i {
+                            position: absolute;
+                            right: 1%;
+                            top: 10%;
+                            width: 25%;
+                            height: 25%;
+                            text-align: center;
+                            font-size: 1.8rem;
+                            color: crimson;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+}

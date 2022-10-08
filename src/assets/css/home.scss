@@ -1,0 +1,482 @@
+#home {
+	width: 100%;
+	height: 100%;
+
+	.operationButton {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: 11%;
+		align-items: center;
+
+		.operationButton-1 {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			height: 100%;
+			align-items: center;
+
+			div {
+				width: 15%;
+				height: 100%;
+				background-color: #f5fffa;
+				text-align: center;
+				box-shadow: 2px 2px 3px #888;
+				border-radius: .8rem;
+
+				img {
+					height: 65%;
+					border-radius: .8rem;
+				}
+			}
+
+			div:active {
+				width: 15%;
+				margin-top: 5px;
+				background-color: #f5fffa;
+				text-align: center;
+				box-shadow: 1px 1px 1px #888;
+				border-radius: .8rem;
+
+				img {
+					height: 65%;
+					border-radius: 0.8rem;
+				}
+
+			}
+		}
+
+		.operationButton-2 {
+			display: flex;
+			justify-content: space-evenly;
+			width: 40%;
+			height: 100%;
+			align-items: center;
+
+			div {
+				width: 35%;
+				height: 100%;
+				text-align: center;
+				box-shadow: 2px 2px 3px #888;
+				border-radius: .8rem;
+				background-color: #f5fffa;
+
+				img {
+					height: 65%;
+					border-radius: 0.8rem;
+				}
+
+			}
+
+			div:active {
+				width: 35%;
+				height: 100%;
+				text-align: center;
+				box-shadow: 2px 2px 3px #888;
+				border-radius: .8rem;
+				background-color: #f5fffa;
+
+				img {
+					height: 65%;
+					border-radius: 0.8rem;
+				}
+			}
+		}
+	}
+
+	.enrollment {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: 40%;
+		margin-top: 2%;
+
+		input,
+		select {
+			height: 25px;
+			outline: none;
+			border: none;
+			border-bottom: 1px solid #888;
+			background-color: #f5ddb900;
+		}
+
+		select {
+			text-align: center;
+		}
+
+		.content1 {
+			display: flex;
+			justify-content: space-between;
+			width: 58%;
+			padding: 10px;
+			border: 1px solid #4f4ff5;
+			border-radius: 10px;
+			color: #4f4ff5;
+			box-sizing: border-box;
+
+			legend {
+				font-weight: bold;
+				color: #4f4ff5;
+
+				span:nth-child(1) {
+					color: #ff0000;
+				}
+			}
+
+			.content1-left {
+				position: relative;
+				width: 80%;
+				height: 100%;
+
+				p {
+					height: 30px;
+					margin-left: 10px;
+				}
+
+				.content1-left-form {
+					position: absolute;
+					z-index: 1;
+
+					p {
+						.danger {
+							color: #ff0000;
+						}
+
+						.security {
+							color: #4f4ff5;
+						}
+					}
+
+
+				}
+
+				.bg-content1-left {
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					z-index: 1;
+					width: 100%;
+					height: 100%;
+					background-size: cover;
+					filter: blur(50px);
+
+					img {
+						width: 100%;
+						height: 100%;
+					}
+
+				}
+
+				.bg-content1-left-animation {
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					z-index: 2;
+					width: 100%;
+					height: 100%;
+					background-size: cover;
+					filter: none;
+					box-shadow: 7px 6px 8px #888;
+
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+
+			}
+		}
+
+
+		.content1-right {
+			display: flex;
+			width: 20%;
+			height: 100%;
+			flex-wrap: wrap;
+
+
+			.content1-right-1 {
+				display: flex;
+				width: 83%;
+				height: 80%;
+				margin-left: 10%;
+				flex-wrap: wrap;
+
+				div {
+					width: 100%;
+					height: 48%;
+					border: 1px solid #4f4ff5;
+					border-radius: 10px;
+
+					img {
+						overflow: hidden;
+						width: 100%;
+						height: 100%;
+						object-fit: contain;
+						border-radius: 10px;
+
+					}
+				}
+
+				div:nth-child(2) {
+					margin-top: .5rem;
+				}
+
+			}
+
+			.content1-right-2 {
+				display: flex;
+				width: 100%;
+				height: 15%;
+				margin-top: 1rem;
+
+				.el-button {
+					width: 70%;
+
+					::v-deep span {
+						margin-left: -13px;
+					}
+				}
+
+				span {
+					font-size: 35px;
+				}
+			}
+
+		}
+	}
+
+	.content2 {
+		width: 40%;
+		height: 100%;
+		box-sizing: border-box;
+
+		.content2-1 {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			padding: 10px;
+			color: #4f4ff5;
+			border: 1px solid #4f4ff5;
+			border-radius: 10px;
+			box-sizing: border-box;
+
+			legend {
+				font-weight: bold;
+			}
+
+			.content2-left {
+
+				width: 100%;
+				height: 50%;
+				border-radius: 10px;
+
+				.content2-left-form {
+					p {
+						.danger {
+							color: #ff0000;
+						}
+
+						.security {
+							color: #4f4ff5;
+						}
+					}
+				}
+			}
+
+			.content2-p {
+				position: absolute;
+				bottom: 0rem;
+				right: 1rem;
+				width: 100%;
+				font-style: italic;
+				text-align: right;
+				color: #888;
+			}
+		}
+
+		.content2-2 {
+			display: flex;
+			justify-content: space-evenly;
+			width: 100%;
+			height: 28%;
+			margin-top: 3%;
+
+			div {
+				width: 35%;
+				height: 100%;
+				background-color: #f5fffa;
+				box-shadow: 2px 2px 3px #888;
+				border-radius: 10px;
+				text-align: center;
+
+				img {
+					height: 65%;
+					border-radius: .7rem;
+				}
+
+				p {
+
+					color: #000;
+				}
+			}
+
+			div:active {
+				width: 40%;
+				height: 100%;
+				margin-top: 5px;
+				background-color: #f5fffa;
+				box-shadow: 2px 2px 3px #888;
+				border-radius: 10px;
+				text-align: center;
+
+				img {
+					height: 65%;
+					border-radius: .7rem;
+				}
+
+				p {
+
+					color: #000;
+				}
+			}
+		}
+	}
+
+
+
+	.content2-right {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		height: 58%;
+		margin-top: 29%;
+
+		div {
+			width: 40%;
+			height: 100%;
+			background-color: #f5fffa;
+			box-shadow: 2px 2px 3px #888;
+			border-radius: 10px;
+			text-align: center;
+
+			img {
+				height: 65%;
+				border-radius: .7rem;
+			}
+
+			p {
+
+				color: #000;
+			}
+		}
+
+		div:active {
+			width: 40%;
+			height: 100%;
+			margin-top: 5px;
+			background-color: #f5fffa;
+			box-shadow: 2px 2px 3px #888;
+			border-radius: 10px;
+			text-align: center;
+
+			img {
+				height: 65%;
+				border-radius: .7rem;
+			}
+
+			p {
+
+				color: #000;
+			}
+		}
+	}
+
+	.el-table .warning-row {
+		background: oldlace; //这里可以修改颜色
+	}
+
+	.el-table .success-row {
+		background: #f0f9eb; //这里可以修改颜色
+	}
+
+	::v-deep .el-table {
+		border-radius: 10px;
+		margin-top: 40px;
+		border: 1px solid #888;
+	}
+
+	.el-pagination {
+		float: right;
+	}
+}
+
+.visitForm {
+	width: 100%;
+	min-width: 100%;
+	height: 44%;
+	padding: 5px;
+	margin-top: 2%;
+	border: 1px solid #4f4ff5;
+	border-radius: 10px;
+	box-sizing: border-box;
+
+	legend {
+		margin-left: 10px;
+		color: #4f4ff5;
+		font-weight: bold;
+	}
+
+	.visitForm-1 {
+		float: right;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		border-radius: 10px;
+
+
+	}
+}
+
+@keyframes identifie {
+	0% {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 2;
+		width: 96%;
+		height: 98%;
+		background-size: cover;
+		filter: blur(40px);
+		margin-top: 5px;
+
+	}
+
+	50% {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 2;
+		width: 96%;
+		height: 98%;
+		background-size: cover;
+		filter: blur(30px);
+		margin-top: 5px;
+		box-shadow: 7px 6px 8px #888;
+		opacify: 0.5;
+	}
+
+	100% {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 2;
+		width: 96%;
+		height: 98%;
+		background-size: cover;
+		filter: none;
+		margin-top: 5px;
+		box-shadow: 7px 6px 8px #888;
+	}
+}

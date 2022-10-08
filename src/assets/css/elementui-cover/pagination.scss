@@ -1,0 +1,16 @@
+$pagFontSize:22px;// 分页字体大小
+:root {
+    --pagination-font-size:$pagFontSize;
+}
+.el-pagination span:not([class*=suffix]) {
+    font-size: $pagFontSize;
+}
+.el-pagination .btn-next .el-icon, .el-pagination .btn-prev .el-icon {
+    font-size: $pagFontSize;
+}
+.el-pager li {
+    font-size: $pagFontSize;  
+}
+.el-pagination .el-input {
+    font-size: $pagFontSize;
+}

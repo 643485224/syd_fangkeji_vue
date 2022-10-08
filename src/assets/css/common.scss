@@ -1,0 +1,123 @@
+.flex {
+	display: flex;
+}
+
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-space-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-space-between-center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-space-evenly-center {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-start {
+	display: flex;
+	justify-content: start;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-align-center {
+	display: flex;
+	align-items: center;
+}
+
+.flex-wrap-space-evenly-center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.flex-wrap-space-between-center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-center-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-wrap-center {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.flex-wrap-space-evenly-center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.son-bootm-right {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.fixed-top {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 999;
+	background-color: white;
+}
+
+// input select
+.call_black {
+	position: fixed;
+	bottom: 5%;
+	right: 10%;
+
+	div {
+		position: relative;
+
+		img {
+			width: 250px;
+		}
+
+		p {
+			position: absolute;
+			top: 0%;
+			width: 100%;
+			height: 85%;
+			font-size: 40px;
+			color: #fff;
+			font-weight: bold;
+		}
+	}
+}

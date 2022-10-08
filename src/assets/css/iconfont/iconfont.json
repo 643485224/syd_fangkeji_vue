@@ -1,0 +1,79 @@
+{
+  "id": "2448425",
+  "name": "window访客机",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5836051",
+      "name": "账号",
+      "font_class": "dl-zh",
+      "unicode": "e7b5",
+      "unicode_decimal": 59317
+    },
+    {
+      "icon_id": "20146272",
+      "name": "密 码",
+      "font_class": "mima",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "3346212",
+      "name": "连接状态",
+      "font_class": "lianjiezhuangtai",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "999221",
+      "name": "关机",
+      "font_class": "ai240",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "4187226",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "4187292",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "11518201",
+      "name": "icon_关机-开机",
+      "font_class": "icon_guanji-kaiji",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "13614079",
+      "name": "重启",
+      "font_class": "zhongqi",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "16399015",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e85f",
+      "unicode_decimal": 59487
+    },
+    {
+      "icon_id": "17187058",
+      "name": "办公电话",
+      "font_class": "bangongdianhua",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    }
+  ]
+}
